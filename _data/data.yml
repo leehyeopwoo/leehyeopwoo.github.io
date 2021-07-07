@@ -3,47 +3,49 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hyeopwoo Lee
-    tagline: Researcher
+    tagline: Post Doctorial Researcher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: opo6954@gmail.com
-    phone: 012 345 6789
+    phone: 82-10-7279-1309
     website:  #do not add http://
-    linkedin: 
+    linkedin: /%ED%98%91%EC%9A%B0-%EC%9D%B4-2616a5b3/
+    researchgate: Hyeopwoo-Lee
     github: opo6954
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: ''
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    telegram: leehyeopwoo
+    # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: ''
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: Korean
         level: Native
 
       - idiom: English
-        level: Professional
+        level: Intermediate
 
     interests:
-      - item: Game
+      - item: AR/VR
         link:
 
-      - item: 
+      - item: AI
         link:
 
-      - item: 
+      - item:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Post Doctorial Researcher (Korean Research Institute of Ships and Ocean enginnering 2021.04.01~)
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -52,10 +54,14 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
+    - degree: PhD in School of Computing
+      university: Korea Advanced Institute of Science and Technology
+      time: 2016 - 2021
+      details: VR/AR
+    - degree: MS in School of Computing
+      university: Korea Advanced Institute of Science and Technology
+      time: 2014 - 2016
+      details: Computer vision |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -63,10 +69,10 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
+    - degree: BS in School of Electrical Engineering and Computer Science
+      university: Gwangju Institute of Science and Technology
+      time: 2010 - 2014
+      details: GIST |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -75,9 +81,9 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Post Doctorial Researcher
+      time: 2021 - Present
+      company: Korean Research Institute of Ships and Ocean enginnering(KRISO), South Korea
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -90,28 +96,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 projects:
     title: Projects
     intro: >
