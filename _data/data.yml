@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hyeopwoo Lee
@@ -26,6 +26,8 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
+    test:
+      - item: tmp
 
     languages:
       - idiom: Korean
@@ -46,7 +48,7 @@ sidebar:
 
 career-profile:
     title: Post Doctorial Researcher (Korean Research Institute of Ships and Ocean enginnering 2021.04.01~)
-    summary: |
+    summary:
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
@@ -58,10 +60,11 @@ education:
       university: Korea Advanced Institute of Science and Technology
       time: 2016 - 2021
       details: VR/AR
+        Describe my doctorial experience
     - degree: MS in School of Computing
       university: Korea Advanced Institute of Science and Technology
       time: 2014 - 2016
-      details: Computer vision |
+      details: Computer vision
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -72,7 +75,7 @@ education:
     - degree: BS in School of Electrical Engineering and Computer Science
       university: Gwangju Institute of Science and Technology
       time: 2010 - 2014
-      details: GIST |
+      details: GIST
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -82,9 +85,19 @@ education:
           - Bullet point
 experiences:
     - role: Post Doctorial Researcher
-      time: 2021 - Present
-      company: Korean Research Institute of Ships and Ocean enginnering(KRISO), South Korea
-      details: |
+      time: 2021.07.01 - present
+      company: Korea Research Institute of Ships and Ocean enginnering
+      details:
+        Post doctorial researcher contents
+          - KRISO
+        - Annotation Tool
+    
+      
+    - role: PhD Candidates
+      time: 2016 - 2021
+      company: Korea Advanced Institute of Science and Technology, South Korea
+      details:
+        Dissertation is AR/VR
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -94,21 +107,51 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
+          - Doctor test
           - Bullet point
-          - Bullet point
+    - role: Master student
+      time: 2014 - 2016
+      company: Korea Advanced Institute of Science and Technology, South Korea
+      details:
+        Dissertation is streo line matching
+          - Master test
+publications:
+    title: Publications
+    intro:
+      Introduction is the best
+    papers:
+      - title: Discipline vs Guidance; Comparison of Visual Engagement Approaches in Immersive Virtual Environments
+        link: https://doi.org/10.1007/s11042-020-10267-z
+        authors: Hyeopwo Lee, Jinki Jung, Heung-Kyu Lee, Hyun Seung Yang
+        conference: Multimedia Tools and Applications(2021), 1-23
+
+      - title: Annotation vs Virtual Tutor; Comparative Analysis on the Effectiveness of Visual Instructions in Immersive Virtual Reality
+        link: https://doi.org/10.1109/ISMAR.2019.00030
+        authors: Hyeopwoo Lee, Hyejin Kim, Diego Vilela Monteiro, Youngnoh Goh, Daseong Han, Hai-Ning Liang, Hyun Seung Yang, Jinki Jung
+        conference: 2019 IEEE International Symposium on Mixed and Augmented Reality(ISMAR), 318-327
+
+      - title: Ensuring Safety in Augmented Reality from Trade-off Between Immersion and Situation Awareness
+        link: https://doi.org/10.1109/ISMAR.2018.00032
+        authors: Jinki Jung, Hyeopwoo Lee, Jeehye Choi, Abhilasha Nanda, Uwe Gruenefeld, Tim Claudius Stratmann, Wilko Heuten
+        conference: 2018 IEEE International Symposium on Mixed and Augmented Reality(ISMAR), 70-79
+      - title: Guiding Smombies; Augmenting Peripheral Vision with Low-Cost Glasses to Shift the Attention of Smartphone Users
+        link: https://doi.org/10.1109/ISMAR-Adjunct.2018.00050
+        authors: Uwe Gruenefeld, Tim Claudius Stratmann, Jinki Jung, Hyeopwoo Lee, Jeehye Choi, Abhilasha Nanda, Wilko Heuten
+        conference: 2018 IEEE International Symposium on Mixed and Augmented Reality Adjunct(ISMAR-Adjunct), 127-131
+        
 
 projects:
-    title: Projects
+    title: Project
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Human care
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Flagship
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
@@ -124,49 +167,9 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

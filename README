@@ -1,1 +1,3 @@
 README
+HOW TO RUN PAGES
+jekyll serve --trace
